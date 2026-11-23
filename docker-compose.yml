@@ -1,0 +1,18 @@
+services:
+  whatsapp-cutter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: whatsapp-video-cutter:1.0.0
+    container_name: whatsapp-video-cutter
+    ports:
+      - "${WA_PORT:-8765}:8765"
+    volumes:
+      - "${VIDEOS_DIR:-..}:/videos"
+    environment:
+      WA_HOST: "0.0.0.0"
+      WA_PORT: "8765"
+      WA_VIDEOS_ROOT: "/videos"
+      WA_DEFAULT_FOLDER: "${WA_DEFAULT_FOLDER:-.}"
+      WA_IN_DOCKER: "1"
+    restart: unless-stopped

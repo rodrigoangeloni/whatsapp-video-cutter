@@ -1,0 +1,16 @@
+.venv/
+build/
+dist/
+__pycache__/
+.pytest_cache/
+.git/
+*.spec
+WhatsApp_Ready/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+tests/
+.env

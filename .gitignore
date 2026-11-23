@@ -1,0 +1,21 @@
+# Entorno virtual y compilacion
+.venv/
+venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Archivos multimedia y exportaciones locales
+WhatsApp_Ready/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+
+# Configuracion local
+.env

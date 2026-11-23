@@ -1,0 +1,1 @@
+# Sin dependencias de terceros en runtime: utiliza unicamente la libreria estandar de Python 3.10+ y FFmpeg/FFprobe en el sistema.
