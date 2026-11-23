@@ -16,7 +16,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Soporte para compilación a ejecutable Windows (`WhatsAppVideoCutter.exe`) con icono personalizado (`assets/app_icon.ico`) y metadatos de versión `1.0.0.0`.
 - Soporte completo para Docker (`Dockerfile` y `docker-compose.yml`), endpoint `GET /api/health` y descarga directa `GET /api/download`.
 - Suite de tests unitarios y de integración con `pytest`.
-- Lanzador `Cortar_Para_WhatsApp.bat` ejecutado dentro de `.venv`.
+- Lanzador `Iniciar_WhatsApp_Cutter.bat` ejecutado dentro de `.venv`.
 
 ### Fixed
 - Manejo silencioso de desconexiones abruptas del navegador (`ConnectionAbortedError [WinError 10053]`, `ConnectionResetError`, `BrokenPipeError`) durante buffering/scrubbing HTTP/1.1.

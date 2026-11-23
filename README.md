@@ -65,7 +65,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe whatsapp_cutter.py
 ```
 
-En Windows también puedes hacer doble clic en `Cortar_Para_WhatsApp.bat`, que verifica o crea `.venv` automáticamente y abre el navegador en `http://127.0.0.1:8765`.
+En Windows también puedes hacer doble clic en `Iniciar_WhatsApp_Cutter.bat`, que verifica o crea `.venv` automáticamente y abre el navegador en `http://127.0.0.1:8765`.
 
 ### Parámetros de línea de comandos
 
