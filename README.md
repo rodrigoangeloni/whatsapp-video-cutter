@@ -17,6 +17,12 @@
 
 ---
 
+## 🖼️ Vista previa
+
+<div align="center">
+  <img src="assets/preview-ui.webp" alt="Interfaz web de WhatsApp Video Cutter" width="900" />
+</div>
+
 ## ✨ Características principales
 
 - **Interfaz web oscura e intuitiva**: reproductor HTML5 con soporte de streaming HTTP `Range` (`206 Partial Content`) para adelantar y retroceder grabaciones pesadas al instante.
